@@ -416,7 +416,7 @@
                 </div>
                 <div>
                     <label class="text-xs text-slate-400 flex justify-between">
-                        <span>ইমেজ হোস্টিং API Key (যেকোনো Key বসাতে পারেন / খালিও রাখতে পারেন):</span>
+                        <span>ইমেজ হোস্টিং API Key (Api):</span>
                         <span class="text-[10px] text-emerald-400 font-poppins">* সার্বজনীন এপিআই</span>
                     </label>
                     <input type="text" id="universal-api-key-input" placeholder="ImgBB, FreeImage বা যেকোনো API Key লিখুন..." class="w-full bg-[#07090e] border border-slate-700 p-2.5 rounded-xl text-xs text-emerald-400 font-poppins outline-none">
@@ -899,7 +899,7 @@
                 },
                 function(finalUrl) {
                     document.getElementById('post-thumb-data').value = finalUrl;
-                    st.innerText = "✅ ফটো আপলোড সফল!";
+                    st.innerText = "✅ ফটো আপলোড !";
                     st.className = "text-[10px] text-emerald-400 font-semibold font-poppins";
                 },
                 function(err) {
@@ -1104,7 +1104,7 @@
                     <div class="flex items-center justify-center gap-3 pt-1 border-t border-slate-800/70">
                         <!-- হোমপেজের পোস্ট লিংক কপি বাটন -->
                         <button onclick="copyPostHomepageLink('${safeTitle}', '${v.id}')" class="bg-[#10b981] hover:bg-emerald-600 active:scale-95 text-white font-bold text-xs px-6 py-2.5 rounded-full flex items-center gap-2 shadow-md transition" title="হোমপেজের পোস্ট লিংক কপি করুন">
-                            <i class="fa-solid fa-link"></i> <span>পোস্ট লিংক</span>
+                            <i class="fa-solid fa-link"></i> <span>লিংক</span>
                         </button>
 
                         <button onclick="editVideo('${v.id}')" class="w-10 h-10 rounded-full bg-amber-500 hover:bg-amber-600 active:scale-95 text-white flex items-center justify-center text-sm shadow transition" title="এডিট">
