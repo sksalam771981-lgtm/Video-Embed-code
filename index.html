@@ -194,13 +194,13 @@
                 <div class="space-y-2.5 bg-[#07090e]/80 p-3.5 rounded-2xl border border-slate-800">
                     <div class="flex justify-between items-center">
                         <label class="text-xs font-semibold text-slate-300 flex items-center gap-1.5">
-                            <i class="fa-solid fa-image text-emerald-400"></i> থাম্বনেইল ফটো (স্থায়ী সিডিএন লিঙ্ক):
+                            <i class="fa-solid fa-image text-emerald-400"></i> থাম্বনেইল ফটো :
                         </label>
                         <span id="photo-upload-status" class="text-[10px] font-semibold font-poppins"></span>
                     </div>
 
                     <label for="thumb-file-input" class="w-full bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 hover:opacity-95 active:scale-95 text-white text-xs font-bold py-3 px-4 rounded-xl cursor-pointer flex items-center justify-center gap-2 shadow-lg transition">
-                        <i class="fa-solid fa-cloud-arrow-up text-sm"></i> গ্যালারি থেকে ছবি আপলোড করুন
+                        <i class="fa-solid fa-cloud-arrow-up text-sm"></i> ছবি আপলোড করুন
                     </label>
                     <input type="file" id="thumb-file-input" accept="image/*" onchange="handlePhotoUpload(this)" class="hidden">
                     
@@ -219,8 +219,8 @@
                 <!-- ৬টি ভিডিও আপলোড স্লট -->
                 <div class="space-y-3 bg-[#07090e]/80 p-3.5 rounded-2xl border border-slate-800">
                     <label class="text-xs font-bold text-slate-200 block border-b border-slate-800 pb-1.5 flex justify-between items-center">
-                        <span>ভিডিও ফাইলসমূহ (১ থেকে ৬টি Catbox ভিডিও):</span>
-                        <span class="text-[10px] text-fuchsia-400 font-poppins">রিয়েল-টাইম MB ও % ট্র্যাকার</span>
+                        <span>ভিডিও আপলোড(Catbox ভিডিও):</span>
+                        <span class="text-[10px] text-fuchsia-400 font-poppins">MB</span>
                     </label>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-3" id="video-slots-container"></div>
                 </div>
